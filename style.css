@@ -66,3 +66,11 @@ main{
 .bgc{
     background-color: #d3d3d3;
 }
+.last-descriptionbox{
+    background-color: green;
+    height: 700px;
+    flex-basis: 100%;
+    border: 2px solid black;
+    margin: 50px 0;
+
+}
