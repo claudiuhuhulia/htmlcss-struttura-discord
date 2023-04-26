@@ -9,19 +9,17 @@ header{
     width: 100%;
     height: 100px;
 }
-
 .flex{
     display: flex;
     justify-content: center;
 
 }
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.logo {
+.logo, .bottone {
     height: 50px;
     background-color: #daa520;
     flex-basis: 20%;
@@ -88,5 +86,13 @@ main{
     flex-basis: 20%;
     background-color: #20b2aa;
     border: 2px solid black;
-
+}
+.column-footer{
+    height: 100px;
+    background-color: #7fffd4;
+    border: 2px solid black;
+}
+.column-footer {
+    align-items: center;
+    justify-content: space-between; 
 }
