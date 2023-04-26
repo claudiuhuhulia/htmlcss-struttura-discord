@@ -12,9 +12,8 @@ header{
 
 .flex{
     display: flex;
-    align-items: flex-start;
     justify-content: center;
-    align-items: center;
+
 }
 
 .container{
@@ -47,4 +46,23 @@ footer{
 }
 main{
     background-color: #00008b;
+}
+
+.blue-column{
+    height: 400px;
+    flex-basis: 66%;
+    background-color: #1e90ff;
+    border: 2px solid black;
+      margin: 50px 0px;
+}
+
+.pink-column{
+    height: 400px;
+    flex-basis: 34%;
+    background-color: #ffc0cb;
+    border: 2px solid black;
+    margin: 50px 0px;
+}
+.bgc{
+    background-color: #d3d3d3;
 }
